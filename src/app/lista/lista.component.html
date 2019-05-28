@@ -1,0 +1,15 @@
+<table>
+  <tr *ngFor="let libro of libros | async">
+    <td>
+      <a [routerLink]="['/detalle', libro.id]">{{libro.isbn}}</a>
+    </td>
+    <td>
+      {{libro.editorial}}
+    </td>
+    <td>
+      {{libro.titulo}}
+    </td>
+  </tr>
+</table>
+
+<button (click)="nuevo()">Añadir libro</button>

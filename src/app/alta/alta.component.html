@@ -1,0 +1,10 @@
+<h1>Inserta un nuevo libro</h1>
+
+<div>
+  ISBN: <input type="text" name="isbn" [(ngModel)]="libro.isbn">
+  Editorial: <input type="text" name="editorial"  [(ngModel)]="libro.editorial">
+  Titulo: <input type="text" name="titulo"  [(ngModel)]="libro.titulo">
+</div>
+
+<button (click)="alta()">Añadir</button>
+<button (click)="atras()">Atras</button>

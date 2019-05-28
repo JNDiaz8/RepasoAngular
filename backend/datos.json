@@ -1,0 +1,16 @@
+{
+  "libros": [
+    {
+      "id": "1",
+      "isbn": "978-84-253-5763-3",
+      "editorial": "GRIJALBO",
+      "titulo": "Lo mejor de ir es volver"
+    },
+    {
+      "id": "3",
+      "isbn": "978-84-17678-08-7",
+      "editorial": "Anaya",
+      "titulo": " El Director"
+    }
+  ]
+}
